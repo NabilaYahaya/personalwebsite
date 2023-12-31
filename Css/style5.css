@@ -1,0 +1,13 @@
+table,tr,th
+{
+	text-align: center;
+	padding: 5px;
+}
+div
+{
+	padding: 140px;
+}
+iframe
+{
+	padding: 10px;
+}

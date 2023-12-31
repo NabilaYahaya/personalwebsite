@@ -1,0 +1,47 @@
+
+ul
+{
+	list-style-type: none;
+	margin: 3;
+	top: 0;
+	width: 96%;
+	overflow: hidden;
+	background-color: gainsboro;
+}
+li a 
+{
+	
+	width: 50px;
+	color: indianred;
+	padding: 2px;
+	text-decoration: none;
+	text-align: center;
+}
+li a:hover
+{
+	background-color: rosybrown;
+	color: white;
+	width: 50px;
+	padding: 5px;
+}
+.active
+{
+	background-color: deeppink;
+	color: white;
+}
+li 
+{
+	display: inline;
+	float: right;
+	font-size: 20px;
+	padding: 20px;
+}
+li:last-child
+{
+	border-bottom: none;
+	border-right: none;
+}
+.active
+{
+	background-color: lightpink;
+}

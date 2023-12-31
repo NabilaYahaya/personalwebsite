@@ -1,0 +1,27 @@
+table, tr, th, td
+		{
+			border: 3px solid black;
+			border-collapse: collapse;
+			padding: 10px;
+			margin: auto;
+			background-color: aliceblue;
+		}
+		td
+		{
+			text-align: center;
+		}
+		tr,th,td
+		{
+			padding: 5px;
+		}
+		tr:hover
+		{
+			background-color: peachpuff;
+			border-block-width: medium;
+		}
+		th:nth-child(odd)
+		{
+			text-align: center;
+			background-color: antiquewhite;
+
+		
